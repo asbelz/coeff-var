@@ -6,8 +6,8 @@ for a given set of measurements which are assumed to be for the same or similar 
 Stats are adjusted for small sample size. Paper ref: Belz, Popovic & Mille (2022) Quantified Reproducibility Assessment of NLP Results,
 ACL'22.
 
-In this self-contained version, the set of measurements on which CV is computed is added manually to the code by assigning it to the variable 
-set_of_set_of_measurements (see examples in code below).
+In this self-contained version, the set of measurements on which CV is computed is assigned to the variable set_of_set_of_measurements
+(see examples in code below).
 
 The reproducibility stats reported in the output are: 
 * the unbiased coefficient of variation
