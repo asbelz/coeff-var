@@ -29,7 +29,3 @@ and a sample size of 7 . \
 NOTE:
 * CV assumes all measurements are positive; if they're not, shift measurement scale to start at 0
 * for fair comparison across studies, measurements on a scale that doesn't start at 0 need to be shifted to a scale that does start at 0 
-
-KNOWN ISSUES:
-
-none
