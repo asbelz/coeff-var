@@ -1,11 +1,18 @@
 # coeff-var
-Code for computing coefficient of variation for small samples
+Code for computing coefficient of variation for small samples. Originally by Belz et al., with later modifications by Emiel van Miltenburg.
 
+## Introduction
 This code computes the coefficient of variation (CV) and some other stats for small samples (indicated by the * added to CV) 
 for a given set of measurements which are assumed to be for the same or similar object, using the same measurand. 
 Stats are adjusted for small sample size. Paper ref: Belz, Popovic & Mille (2022) Quantified Reproducibility Assessment of NLP Results,
 ACL'22.
 
+## Changes from the original code
+This repository now contains a script instead of a notebook to make it easier to compute the CV* metric.
+Users can now import the cv function and run it with a `set_of_set_of_measurements` as an argument.
+(Note that this technically is not a set but a list_of_list_of_measurements, but I did not want to change the naming convention.)
+
+## Original description
 In this self-contained version, the set of measurements on which CV is computed is assigned to the variable set_of_set_of_measurements
 (see examples in code below).
 
